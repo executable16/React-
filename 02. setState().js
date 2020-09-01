@@ -12,6 +12,7 @@ class Counter extends Component {
     increment(){
             this.setState({
                 count : this.state.count + 1
+                /* This way of modifying data is highly recommendable !*/
             })
         }
     
